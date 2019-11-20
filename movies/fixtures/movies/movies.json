@@ -1,0 +1,40 @@
+[
+{
+  "model": "movies.genre",
+  "pk": 1,
+  "fields": {
+    "name": "\ub0a8\uc2b9\ud604"
+  }
+},
+{
+  "model": "movies.genre",
+  "pk": 2,
+  "fields": {
+    "name": "\ub0a8\uac00\ub188"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "title": "\uc560\ub9c8\uc2b9\ud604",
+    "audience": 1818,
+    "poster_url": "www",
+    "description": "\uc5b4\uba38\uba38...",
+    "genres": [
+      2
+    ],
+    "like_users": []
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 1,
+  "fields": {
+    "content": "\ub118 \uc57c\ud55c\uac83.",
+    "score": 18,
+    "movie": 1,
+    "user": 1
+  }
+}
+]
